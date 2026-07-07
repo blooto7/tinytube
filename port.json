@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "name": "tinytube.zip",
+    "items": [
+        "TinyTube.sh",
+        "tinytube"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "TinyTube",
+        "desc": "Lightweight gamepad-driven YouTube frontend. Search, local subscriptions and watch history, with playback via mpv (software decode, quality capped for H700-class devices). Requires wifi.",
+        "inst": "Requires an internet connection. Playback needs mpv: either the muOS system mpv, or drop a static aarch64 mpv build into tinytube/bin/. See README.",
+        "genres": [
+            "app"
+        ],
+        "porter": [
+            "blooto7"
+        ],
+        "image": {},
+        "rtr": true,
+        "runtime": "python_3.11",
+        "reqs": [],
+        "arch": [
+            "aarch64"
+        ]
+    }
+}
